@@ -1,0 +1,17 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-self: flex-start; align-items: stretch; justify-content: flex-start; flex-shrink: 1; flex-wrap: wrap; align-content: auto; width: auto;">
+            <ui:Image style="background-image: url(&quot;project://database/Assets/heart.png?fileID=-205270267638800340&amp;guid=9a86a75bf9699fe4191752e630cf9e37&amp;type=3#heart_0&quot;); flex-grow: 1; background-size: 25px 25px; align-items: auto; align-content: auto; background-position-x: center; justify-content: flex-start; flex-direction: column; flex-wrap: wrap-reverse; align-self: stretch; min-width: 0%; max-width: 50%;"/>
+            <ui:Label text="100" name="livesLabel" style="color: rgb(255, 255, 255);"/>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: flex-end;">
+            <ui:Label text="Coins:" style="color: rgb(255, 255, 255);"/>
+            <ui:Label text="250" name="coinsLabel" style="color: rgb(255, 255, 255);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1;"/>
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row-reverse; flex-wrap: nowrap; align-items: center; justify-content: center;">
+        <ui:Button text="Add Coins" name="addCoinsButton"/>
+        <ui:Button text="Take Damage" name="takeDamageButton"/>
+    </ui:VisualElement>
+</ui:UXML>
